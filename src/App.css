@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+/* {import '@splidejs/react-splide/css';} */
+.hero{
+  background-image: url("../public/assets/hero_bg.png");
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.power{
+  background-image: url("../public/assets/white_bg.png");
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.power_image{
+  background-image: url("../public/assets/power_texture.png");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.action_image{
+  background-image: url("../public/assets/action_image.png");
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.awaken_image{
+  background-image: url("../public/assets/awken_image.png");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.potential_image{
+  background-image: url("../public/assets/potential_image.png");
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.entry_point{
+  background-image: url("../public/assets/entry_point.png");
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.choose_method{
+  background-image: url("../public/assets/choose_method.png");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.roadmap{
+  background-image: url("../public/assets/roadmap.png");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.testimonial_1{
+  background-image: url("../public/assets/test_1.png");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.testimonial_2{
+  background-image: url("../public/assets/test_2.png");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.testimonial_3{
+  background-image: url("../public/assets/test_3.png");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.working{
+  background-image: url("../public/assets/how_it_works.png");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.texture{
+  background-image: url("../public/assets/texture.png");
+  background-size: cover;
+  background-position: 0% 0%;
+}
+.try{
+  background-image: url("../public/assets/glow_bg.png");
+  background-size: cover;
+  background-position: 0% 0%;
+}
+.methods{
+  background-image: url("../public/assets/methods_bg.png");
+  background-size: cover;
+  background-position: 0% 0%;
+}
+.whats_in{
+  background-image: url("../public/assets/whats_in.png");
+  background-size: cover;
+  background-position: 0% 0%;
+}
+.feature{
+  background-image: url("../public/assets/feature.png");
+  background-size: cover;
+  background-position: 0% 0%;
+}
+
+.team{
+  background-image: url("../public/assets/teams_bg.png");
+  background-size: cover;
+  background-position: 0% 0%;
+}
+
+.card{
+  background-color:rgba(46, 45, 45, 0.6);
 }
