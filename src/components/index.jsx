@@ -187,8 +187,239 @@ const texture_cards = [
         cta_link:'https://pages.viral-loops.com/ix-coach-free-coaching-competition-1z6k3oa1ral'
     },
     
-]
+];
 
 
 
-export {card_content, text_cards, feature_cards, team_cards, texture_cards}
+const plans = {
+    "monthly" : {
+        "starter" : {
+            "heading" : {
+                "class" : "text-indigo-700",
+                "text" : "$1,500 first 120 days"
+            },
+            "subhead" : "$199/month thereafter",
+            "desc" : "Increase Your Visibility by Tapping into the chatGPT User Base",
+            "packages" : [
+                {
+                    "name" : "Usage Limits",
+                    "detail" : "Up to 1,000 active monthly users",
+                },
+                {
+                    "name" : "Custom AI Avatar",
+                    "detail" : "Unique virtual assistant designed for your content, listed in the ChatGPT marketplace",
+                },
+                {
+                    "name" : "Brand Representation",
+                    "detail" : "Custom graphic image depicting you or your brand visually",
+                },
+                {
+                    "name" : "AI Capabilities",
+                    "detail" : "Comprehensive Coaching Framework designed based on your influences.",
+                },
+                {
+                    "name" : "Human Expert Integration",
+                    "detail" : "Direct users to your website for situations better suited for human coaching.",
+                },
+                {
+                    "name" : "Content Improvement Tools",
+                    "detail" : "We generate previews of coaching sessions and provide feedback to iteratively enhance quality",
+                },
+
+            ],
+            "classes": "bg-blue-100",
+            "cta" : "bg-white"
+        },
+        "mid-level" : {
+            "heading" : {
+                "class" : "text-green-400",
+                "text" : "$5,000 first 120 days",
+            },
+            "subhead" : "$499/month thereafter",
+            "desc" : "Stand Out with a Tailored AI Coaching Assistant",
+            "packages" : [
+                {
+                    "name" : "Includes all features from the Starter Package",
+                    "detail" : "",
+                },
+                {
+                    "name" : "Usage Limits",
+                    "detail" : "Up to 5,000 active monthly users",
+                },
+                {
+                    "name" : "Priority Technical Support",
+                    "detail" : "Get the help you need, faster",
+                },
+                {
+                    "name" : "Live Chat Integration",
+                    "detail" : "Integrate your AI Coach into your website to provide a demo of your style.",
+                },
+                {
+                    "name" : "Visitor Tracking",
+                    "detail" : "Registration and email capture on site",
+                },
+                {
+                    "name" : "Recommend Relevant Content",
+                    "detail" : "Recommend your Courses or events to users through the chat interface",
+                },
+
+            ],
+            "classes": "bg-gray-100",
+            "cta" : "bg-green-400"
+        },
+        "top" : {
+            "heading" : {
+                "class" : "text-sky-400",
+                "text" : "$15,000 first 120 days",
+            },
+            "subhead" : "$799/month thereafter",
+            "desc" : "Elevate Your Coaching Experience with Premium AI Integration",
+            "packages" : [
+                {
+                    "name" : "Includes all features from the Mid-Level Package",
+                    "detail" : "",
+                },
+                {
+                    "name" : "Messaging Integration",
+                    "detail" : "Telegram and WhatsApp text & voice conversation",
+                },
+                {
+                    "name" : "Mobile Application",
+                    "detail" : "App with voice interface",
+                },
+                {
+                    "name" : "Custom Coaching Plans",
+                    "detail" : "Individualized coaching plans",
+                },
+                {
+                    "name" : "Branding Options",
+                    "detail" : "White-label branding for your AI assistant",
+                },
+                {
+                    "name" : "Subscription Model",
+                    "detail" : "Subscription-based coaching via apps",
+                },
+
+            ],
+            "classes": "bg-sky-100",
+            "cta" : "bg-sky-400"
+        },
+    },
+    "yearly" : {
+        "starter" : {
+            "heading" : {
+                "class" : "text-indigo-700",
+                "text" : "$1,200 / monthly"
+            },
+            "subhead" : "$14,400 / yearly",
+            "desc" : "Increase Your Visibility by Tapping into the chatGPT User Base",
+            "packages" : [
+                {
+                    "name" : "Usage Limits",
+                    "detail" : "Up to 1,000 active monthly users",
+                },
+                {
+                    "name" : "Custom AI Avatar",
+                    "detail" : "Unique virtual assistant designed for your content, listed in the ChatGPT marketplace",
+                },
+                {
+                    "name" : "Brand Representation",
+                    "detail" : "Custom graphic image depicting you or your brand visually",
+                },
+                {
+                    "name" : "AI Capabilities",
+                    "detail" : "Comprehensive Coaching Framework designed based on your influences.",
+                },
+                {
+                    "name" : "Human Expert Integration",
+                    "detail" : "Direct users to your website for situations better suited for human coaching.",
+                },
+                {
+                    "name" : "Content Improvement Tools",
+                    "detail" : "We generate previews of coaching sessions and provide feedback to iteratively enhance quality",
+                },
+
+            ],
+            "classes": "bg-blue-100",
+            "cta" : "bg-white"
+        },
+        "mid-level" : {
+            "heading" : {
+                "class" : "text-green-400",
+                "text" : "$4,000 / monthly",
+            },
+            "subhead" : "$48,000 / yearly",
+            "desc" : "Stand Out with a Tailored AI Coaching Assistant",
+            "packages" : [  
+                {
+                    "name" : "Includes all features from the Starter Package",
+                    "detail" : "",
+                },
+                {
+                    "name" : "Usage Limits",
+                    "detail" : "Up to 5,000 active monthly users",
+                },
+                {
+                    "name" : "Priority Technical Support",
+                    "detail" : "Get the help you need, faster",
+                },
+                {
+                    "name" : "Live Chat Integration",
+                    "detail" : "Integrate your AI Coach into your website to provide a demo of your style.",
+                },
+                {
+                    "name" : "Visitor Tracking",
+                    "detail" : "Registration and email capture on site",
+                },
+                {
+                    "name" : "Recommend Relevant Content",
+                    "detail" : "Recommend your Courses or events to users through the chat interface",
+                },
+
+            ],
+            "classes": "bg-gray-100",
+            "cta" : "bg-green-400"
+        },
+        "top" : {
+            "heading" : {
+                "class" : "text-sky-300",
+                "text" : "$12,000 / monthly"
+            },
+            "subhead" : "$144,000 / yearly",
+            "desc" : "Elevate Your Coaching Experience with Premium AI Integration",
+            "packages" : [
+                {
+                    "name" : "Includes all features from the Mid-Level Package",
+                    "detail" : "",
+                },
+                {
+                    "name" : "Messaging Integration",
+                    "detail" : "Telegram and WhatsApp text & voice conversation",
+                },
+                {
+                    "name" : "Mobile Application",
+                    "detail" : "App with voice interface",
+                },
+                {
+                    "name" : "Custom Coaching Plans",
+                    "detail" : "Individualized coaching plans",
+                },
+                {
+                    "name" : "Branding Options",
+                    "detail" : "White-label branding for your AI assistant",
+                },
+                {
+                    "name" : "Subscription Model",
+                    "detail" : "Subscription-based coaching via apps",
+                },
+
+            ],
+            "classes": "bg-sky-100",
+            "cta" : "bg-sky-400"
+        },
+    },
+}
+
+
+
+export {card_content, text_cards, feature_cards, team_cards, texture_cards, plans}

@@ -1,8 +1,29 @@
 /* {import '@splidejs/react-splide/css';} */
+body, html{
+  scroll-behavior: smooth;
+}
+header{
+  background: rgb(0,68,69);
+background: -moz-linear-gradient(49deg, rgba(0, 26, 27, 0.768) 0%, rgba(10, 8, 24, 0.888) 53%);
+background: -webkit-linear-gradient(49deg, rgba(0, 26, 27, 0.768) 0%, rgba(10, 8, 24, 0.888) 53%);
+background: linear-gradient(49deg, rgba(0, 26, 27, 0.768) 0%, rgba(10, 8, 24, 0.888) 53%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004445",endColorstr="#1b1731",GradientType=1);
+}
+
 .hero{
   background-image: url("../public/assets/hero_bg.png");
   background-size: cover;
   background-position: 50% 50%;
+}
+
+.separator{
+  width: 100%;
+  height: 10px;
+  background: rgb(37,37,37);
+  background: -moz-linear-gradient(180deg, rgba(37,37,37,0.9976365546218487) 0%, rgba(152,152,152,0.9976365546218487) 50%, rgba(37,37,37,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(37,37,37,0.9976365546218487) 0%, rgba(152,152,152,0.9976365546218487) 50%, rgba(37,37,37,1) 100%);
+  background: linear-gradient(180deg, rgba(37,37,37,0.9976365546218487) 0%, rgba(152,152,152,0.9976365546218487) 50%, rgba(37,37,37,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#252525",endColorstr="#252525",GradientType=1);
 }
 
 .power{
@@ -75,7 +96,8 @@
   background-size: cover;
   background-position: 0% 0%;
 }
-.try{
+.try,
+#contact{
   background-image: url("../public/assets/glow_bg.png");
   background-size: cover;
   background-position: 0% 0%;
@@ -97,11 +119,41 @@
 }
 
 .team{
-  background-image: url("../public/assets/teams_bg.png");
+  background: rgb(11,191,165);
+background: -moz-radial-gradient(ellipse at 20% 80%, rgba(56, 248, 219, 0.092) 2%, rgba(255,255,255,0) 100%), url("../public/assets/teams_bg.png");
+background: -webkit-radial-gradient(ellipse at 20% 80%, rgba(56, 248, 219, 0.092) 2%, rgba(255,255,255,0) 100%), url("../public/assets/teams_bg.png");
+background: radial-gradient(ellipse at 20% 80%, rgba(56, 248, 219, 0.092) 11%, rgba(255,255,255,0) 100%), url("../public/assets/teams_bg.png");
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0bbfa5",endColorstr="#ffffff",GradientType=1);
   background-size: cover;
   background-position: 0% 0%;
 }
 
 .card{
   background-color:rgba(46, 45, 45, 0.6);
+}
+
+
+.pricing{
+  background:rgba(14, 8, 33);
+  background-repeat: no-repeat;
+  background-size: center center;
+  background-blend-mode: multiply;
+}
+
+
+.splide__pagination__page{
+  background: #fff;
+  width: 10px;
+  height: 10px;
+  margin-inline: 5px;
+  border-radius: 50%;
+
+}
+
+.splide__pagination__page.is-active{
+  background: rgb(5, 226, 208);
+}
+
+.splide__arrows{
+  display: none;
 }
